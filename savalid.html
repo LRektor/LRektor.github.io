@@ -1,0 +1,12 @@
+
+<script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+<script>
+  //var wifPub = <?=$_POST['pub']?>;
+  //var wifPriv = <?=$_POST['priv']?>;
+  //var url = new URL(window.location.href);
+  //var wifPub = url.searchParams.get("pub");
+  //var wifPriv = url.searchParams.get("priv");
+  var wifPriv = "";
+  var wifPub = "";
+  document.write(steem.auth.wifIsValid(wifPriv, wifPub));
+</script>
