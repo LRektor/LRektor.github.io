@@ -1,3 +1,4 @@
+<!Doctype HTML>
 <?php
   if(isset($_GET["priv"])){
     echo($_GET["priv"]);
